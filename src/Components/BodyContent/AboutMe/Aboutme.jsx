@@ -2,7 +2,7 @@ export default function Aboutme({ scrollToAboutMe }) {
   return (
     <div
       ref={scrollToAboutMe}
-      className="my-20 flex  flex-row items-center justify-center gap-48"
+      className="my-20 flex  flex-row items-center justify-center gap-48 py-32"
     >
       <p className=" text-7xl">About Me</p>
       <p className="w-[1000px] text-2xl">
