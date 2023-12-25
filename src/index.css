@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #121212;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #878383;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
