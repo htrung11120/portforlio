@@ -1,13 +1,15 @@
 import AboutMe from "./Components/BodyContent/AboutMe";
 import Projects from "./Components/BodyContent/Projects/Projects";
 import Skill from "./Components/BodyContent/Skills/Skill";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   return (
-    <div className=" mx-24 flex flex-col scroll-smooth">
+    <div className=" mx-24 mb-32 flex flex-col scroll-smooth">
       <AboutMe />
       <Skill />
       <Projects />
+      <Contact />
     </div>
   );
 }
