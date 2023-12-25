@@ -4,7 +4,7 @@ import Skill from "./Components/BodyContent/Skills/Skill";
 
 function App() {
   return (
-    <div className=" flex flex-col scroll-smooth">
+    <div className=" mx-24 flex flex-col scroll-smooth">
       <AboutMe />
       <Skill />
       <Projects />

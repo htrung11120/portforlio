@@ -13,7 +13,7 @@ export default function Skill() {
 
   return (
     <div className="flex  flex-col items-center justify-center">
-      <div className=" align-center mx-24 my-10 items-center justify-center border-y-2 border-solid border-[#878383] ">
+      <div className=" align-center  my-10 items-center justify-center border-y-2 border-solid border-[#878383] ">
         <div className="mb-36	mt-24 flex flex-row justify-between">
           <h3 className="text-7xl	">Skills</h3>
           <p className="w-[800px]	pr-32 text-2xl leading-10	">
