@@ -1,10 +1,11 @@
 import { useRef } from "react";
-import AboutMe from "./Components/BodyContent/AboutMe";
 import Projects from "./Components/BodyContent/Projects/Projects";
 import Skill from "./Components/BodyContent/Skills/Skill";
 import Contact from "./Components/Contact/Contact";
 import NavBar from "./Components/NavBar/NavBar";
 import BackToTopButton from "./ultils/BackToTopButton";
+import Home from "./Components/BodyContent/Home/Home";
+import Aboutme from "./Components/BodyContent/AboutMe/Aboutme";
 
 function App() {
   const scrollToAboutMe = useRef(null);
@@ -27,8 +28,10 @@ function App() {
           scrollToSkill={scrollToSkill}
           scrollToProjects={scrollToProjects}
           scrollToContact={scrollToContact}
+          scrollToAboutMe={scrollToAboutMe}
         />
-        <AboutMe />
+        <Home />
+        <Aboutme scrollToAboutMe={scrollToAboutMe} />
         <Skill scrollToSkill={scrollToSkill} />
         <Projects scrollToProjects={scrollToProjects} />
         <Contact scrollToContact={scrollToContact} />
