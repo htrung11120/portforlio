@@ -17,7 +17,7 @@ export default function NavBar({
 
   return (
     <nav>
-      <ul className="pr-18 relative hidden flex-row justify-end gap-20 pt-10 text-2xl md:flex">
+      <ul className="pr-18 relative  flex flex-row justify-end gap-20 pt-10 text-2xl">
         <li className={listStyled}>Home</li>
         <li
           className={listStyled}
@@ -44,9 +44,6 @@ export default function NavBar({
           Contact
         </li>
       </ul>
-      <button className=" fixed right-32 top-10  h-12 w-12 flex-col gap-10 space-y-1 md:hidden">
-        <RxHamburgerMenu className="h-32 w-32" />
-      </button>
     </nav>
   );
 }
