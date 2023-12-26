@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div>
-      <div className=" mx-24 mb-32 flex flex-col scroll-smooth">
+      <div className="  mx-32 flex flex-col overflow-visible	scroll-smooth ">
         <NavBar
           scrollTo={(section) => scrollTo(section)}
           scrollToSkill={scrollToSkill}

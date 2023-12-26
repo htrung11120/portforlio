@@ -7,19 +7,20 @@ import { PiFramerLogo } from "react-icons/pi";
 import { IoLogoVercel } from "react-icons/io5";
 
 export default function Skill({ scrollToSkill }) {
-  const skillSetStyled = "flex flex-wrap gap-32 justify-center ";
-  const iconStyled = "w-[80px] h-[80px] hover:fill-[#ff4d00]";
-  const skillHeadingStyled = "text-3xl mb-16";
+  const skillSetStyled = "flex flex-wrap md:gap-32 gap-10 justify-center ";
+  const iconStyled =
+    "w-[40px] h-[40px] md:w-[80px] md:h-[80px] hover:fill-[#ff4d00]";
+  const skillHeadingStyled = "text-2xl md:text-3xl mb-16";
 
   return (
     <div
-      className="skill  flex flex-col items-center justify-center"
+      className=" flex flex-col md:items-center md:justify-center"
       ref={scrollToSkill}
     >
-      <div className=" align-center  my-10 items-center justify-center border-y-2 border-solid border-[#878383] ">
-        <div className="mb-36	mt-24 flex flex-row justify-between">
-          <h3 className="text-7xl	">Skills</h3>
-          <p className="w-[800px]	pr-32 text-2xl leading-10	">
+      <div className=" align-center my-5 items-center justify-center border-y-2 border-solid border-[#878383] md:my-10 ">
+        <div className="mb-36	mt-24 flex flex-row justify-between gap-48 md:gap-10 ">
+          <h3 className="text-4xl md:text-7xl	">Skills</h3>
+          <p className="w-[800px]	text-xl leading-10 md:pr-32 md:text-2xl	">
             Experienced in building modern web applications and reusable user
             interface components using React.js, Javascript (ES6), HTML5,
             SASS/SCSS, CSS3. Currently learning Node.js, Express.js, and MongoDB

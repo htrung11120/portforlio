@@ -4,8 +4,8 @@ export default function Aboutme({ scrollToAboutMe }) {
       ref={scrollToAboutMe}
       className="my-20 flex  flex-row items-center justify-center gap-48 py-32"
     >
-      <p className=" text-7xl">About Me</p>
-      <p className="w-[1000px] text-2xl">
+      <p className=" w-96 self-start text-4xl md:text-7xl">About Me</p>
+      <p className="w-auto text-lg md:w-[1000px] md:text-2xl">
         I'm Trung, a college student deeply immersed in the world of software
         engineering, specifically aspiring to specialize as a frontend
         developer. The ever-changing landscape of technology has always

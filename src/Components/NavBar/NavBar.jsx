@@ -1,5 +1,3 @@
-import { RxHamburgerMenu } from "react-icons/rx";
-
 export default function NavBar({
   scrollTo,
   scrollToProjects,
@@ -17,7 +15,7 @@ export default function NavBar({
 
   return (
     <nav>
-      <ul className="pr-18 relative  flex flex-row justify-end gap-20 pt-10 text-2xl">
+      <ul className="pr-18 relative  flex flex-row justify-end gap-8 pt-10 text-2xl md:gap-20 ">
         <li className={listStyled}>Home</li>
         <li
           className={listStyled}
