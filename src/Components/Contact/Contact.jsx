@@ -1,6 +1,9 @@
 export default function Contact({ scrollToContact }) {
   return (
-    <div ref={scrollToContact} className="flex flex-col  ">
+    <div
+      ref={scrollToContact}
+      className="flex w-screen flex-col px-10 md:w-full "
+    >
       <h3 className=" my-10 text-4xl md:mb-24 md:text-7xl">Contact</h3>
       <div className="flex flex-col md:flex-row md:gap-48">
         <div className="flex h-auto w-9/12 flex-col gap-8 self-center bg-slate-200 px-16 pb-16 md:w-[800px] md:gap-16">
