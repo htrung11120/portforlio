@@ -21,7 +21,7 @@ function App() {
   };
 
   return (
-    <div className="relative">
+    <div>
       <div className=" mx-24 mb-32 flex flex-col scroll-smooth">
         <NavBar
           scrollTo={(section) => scrollTo(section)}
