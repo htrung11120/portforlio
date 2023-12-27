@@ -4,7 +4,7 @@ import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 export default function Projects({ scrollToProjects }) {
   return (
     <div
-      className="  mt-6  flex w-screen flex-col md:mt-20 md:w-full md:flex-row md:justify-between md:gap-60"
+      className="  mb-32  mt-6 flex w-screen flex-col md:mt-20 md:w-full md:flex-row md:justify-between md:gap-60"
       ref={scrollToProjects}
     >
       <h3 className=" px-10 text-4xl md:text-7xl">Projects</h3>

@@ -14,8 +14,8 @@ export default function NavBar({
   };
 
   return (
-    <nav>
-      <ul className="pr-18 relative  flex flex-row justify-end gap-8 pt-10 text-sm md:gap-20 md:text-2xl ">
+    <nav className="w-full">
+      <ul className="pr-18 text-md  relative flex flex-row items-center justify-center gap-4 pt-10 md:justify-end md:gap-20 md:text-2xl ">
         <li className={listStyled}>Home</li>
         <li
           className={listStyled}

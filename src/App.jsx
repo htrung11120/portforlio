@@ -21,7 +21,7 @@ function App() {
   };
 
   return (
-    <div className="  overflow-hidden md:mx-32 ">
+    <div className="  mb-10 overflow-hidden md:mx-32 ">
       <div className=" flex flex-col items-center	justify-center  scroll-smooth	">
         <NavBar
           scrollTo={(section) => scrollTo(section)}
