@@ -28,7 +28,7 @@ export default function BackToTopButton() {
   };
 
   return (
-    <div className="fixed bottom-6 right-6 cursor-pointer hover:text-[#ff4d00]">
+    <div className="fixed bottom-6 right-6 cursor-pointer hover:scale-125 hover:text-[#ff4d00]">
       {showScrollTopBtn && (
         <FaAngleUp className="h-14 w-16" onClick={scrollTop} />
       )}

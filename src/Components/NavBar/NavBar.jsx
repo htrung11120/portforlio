@@ -5,7 +5,8 @@ export default function NavBar({
   scrollToContact,
   scrollToAboutMe,
 }) {
-  const listStyled = "cursor-pointer hover:text-[#ff4d00]";
+  const listStyled =
+    "cursor-pointer hover:text-[#ff4d00] hover:underline hover:scale-125";
 
   const handleNavigation = (scrollFunction) => {
     if (scrollFunction) {

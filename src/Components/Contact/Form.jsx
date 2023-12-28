@@ -3,14 +3,14 @@ export default function Form() {
     window.location.href = "http://localhost:5173/";
   };
   return (
-    <div className="  flex h-auto w-9/12 flex-col items-center  justify-center md:w-[600px] ">
+    <div className="  flex h-auto w-9/12 flex-col items-center  md:w-[600px] ">
       <p className=" mt-10 text-4xl text-white md:mt-14 md:text-5xl">
         Send me a message!
       </p>
       <form
         action="https://formspree.io/f/mleqrylv"
         method="POST"
-        className=" md:text-md ml-14 mt-12 flex  w-10/12 flex-col gap-12 text-xs"
+        className=" ml-14 mt-12 flex w-10/12  flex-col gap-12 text-xs md:text-lg"
         onSubmit={handleSubmit}
       >
         <div className="flex w-full flex-wrap justify-between gap-8  md:flex-row">
@@ -28,12 +28,6 @@ export default function Form() {
             className="h-10  grow rounded-md pl-1 md:pl-4"
             required
           />
-          <input
-            type="text"
-            name="subject"
-            placeholder="Subject..."
-            className="h-10 w-full grow rounded-md pl-1 md:pl-4"
-          />
         </div>
 
         <textarea
@@ -48,7 +42,7 @@ export default function Form() {
 
         <button
           type="submit"
-          className="h-10 w-full self-center rounded-md bg-white text-center md:h-16"
+          className="h-10 w-full self-center rounded-md bg-white text-center text-2xl hover:scale-105 md:h-16"
         >
           Send Message
         </button>
